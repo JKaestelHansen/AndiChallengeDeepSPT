@@ -1,0 +1,4 @@
+artifact_location: file:///nfs/datasync4/jacobkh/SPT/AndiChallenge/Unet_results/mlruns/2
+experiment_id: '2'
+lifecycle_stage: active
+name: DATASET_AnDi_model_track_2__METHOD_XYZ_SL_DP__MODEL_DeepSPTAnDimodel__
