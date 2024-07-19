@@ -57,4 +57,4 @@ pip install iminuit==2.11.0
 pred_and_prep_submissionfile.py can be run end-to-end on the path to the data to run predictions on by specifying the path in the script
 
 # Data and models
-Please download models and data from XXX and insert folders in to repo individually
+Please download models and data from https://erda.ku.dk/archives/f4751cdc28fdafdfe429f1cf255564f3/published-archive.html and insert folders in to repo individually
