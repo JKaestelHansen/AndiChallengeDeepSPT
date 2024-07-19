@@ -1,0 +1,15 @@
+artifact_uri: file:///nfs/datasync4/jacobkh/SPT/AndiChallenge/Unet_results/mlruns/1/a4952c6b130c429ead019e146dd81663/artifacts
+end_time: 1718115544667
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: a4952c6b130c429ead019e146dd81663
+run_uuid: a4952c6b130c429ead019e146dd81663
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718053665200
+status: 3
+tags: []
+user_id: jkh
