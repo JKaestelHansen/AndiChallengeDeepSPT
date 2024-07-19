@@ -8,16 +8,16 @@ DeepSPT's installation guide utilize conda environment setup, therefore either m
 DeepSPT is most easily setup in a new conda environment with dependecies, versions, and channels found in environment_droplet.yml - Open Terminal / Commando prompt at wished location of DeepSPT and run the bash commands below, which creates the environemnt, downloades and installs packages, typically in less than 5 minutes. The code has been tested both on MacOS and Linux operating systems.
 
 ```bash
-git clone git@github.com:JKaestelHansen/DeepSPT.git OR git clone https://github.com/JKaestelHansen/DeepSPT (potentially substitute JKaestelHansen with hatzakislab
-cd DeepSPT
+git clone git@github.com:JKaestelHansen/AndiChallengeDeepSPT.git OR git clone https://github.com/JKaestelHansen/AndiChallengeDeepSPT (potentially substitute JKaestelHansen with hatzakislab
+cd AndiChallengeDeepSPT
 conda env create -f environment_droplet.yml
 conda activate DeepSPT
 pip install probfit==1.2.0
 pip install iminuit==2.11.0
 
 As second option:
-git clone git@github.com:JKaestelHansen/DeepSPT.git OR git clone https://github.com/JKaestelHansen/DeepSPT (potentially substitute JKaestelHansen with hatzakislab
-cd DeepSPT
+git clone git@github.com:JKaestelHansen/AndiChallengeDeepSPT.git OR git clone https://github.com/JKaestelHansen/AndiChallengeDeepSPT (potentially substitute JKaestelHansen with hatzakislab
+cd AndiChallengeDeepSPT
 conda env create -f environment_droplet_minimal.yml
 conda activate simpleDeepSPT
 pip install h5py==2.10.0
@@ -29,8 +29,8 @@ pip install iminuit==2.11.0
 As third option (A big thanks to Konstantinos Tsolakidis for contributing approach):
 Especially if running this on an Apple Macbook - M1/M2/M3 processor:
 
-git clone git@github.com:JKaestelHansen/DeepSPT.git OR git clone https://github.com/JKaestelHansen/DeepSPT (potentially substitute JKaestelHansen with hatzakislab
-cd DeepSPT
+git clone git@github.com:JKaestelHansen/AndiChallengeDeepSPT.git OR git clone https://github.com/JKaestelHansen/AndiChallengeDeepSPT (potentially substitute JKaestelHansen with hatzakislab
+cd AndiChallengeDeepSPT
 
 conda create --name simpleDeepSPT
 conda activate simpleDeepSPT
@@ -51,3 +51,10 @@ conda install imagecodecs==2023.1.23
 pip install pomegranate==0.14.9
 pip install probfit==1.2.0
 pip install iminuit==2.11.0
+```
+
+# Files
+pred_and_prep_submissionfile.py can be run end-to-end on the path to the data to run predictions on by specifying the path in the script
+
+# Data and models
+Please download models and data from XXX and insert folders in to repo individually
